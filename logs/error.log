@@ -1,0 +1,258 @@
+2015-03-24 14:00:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:23:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:23:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:28:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:30:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:31:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:33:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:34:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:34:53 Warning: Warning (4096): Argument 2 passed to Cake\View\Helper\HtmlHelper::css() must be of the type array, null given, called in /var/www/aslguarico/src/Template/Pages/home.ctp on line 13 and defined in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 407]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 407
+include - APP/Template/Pages/home.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-03-24 14:34:53 Error: Fatal Error (1): Unsupported operand types in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 409]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-24 14:34:53 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /aslguarico/
+Stack Trace:
+#0 /var/www/aslguarico/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', '/var/www/aslgua...', 409)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-03-24 14:35:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:37:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:37:45 Warning: Warning (4096): Argument 2 passed to Cake\View\Helper\HtmlHelper::css() must be of the type array, null given, called in /var/www/aslguarico/src/Template/Pages/home.ctp on line 43 and defined in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 407]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 407
+include - APP/Template/Pages/home.ctp, line 43
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-03-24 14:37:45 Error: Fatal Error (1): Unsupported operand types in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 409]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-24 14:37:45 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /aslguarico/
+Stack Trace:
+#0 /var/www/aslguarico/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', '/var/www/aslgua...', 409)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-03-24 14:38:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:38:05 Warning: Warning (4096): Argument 2 passed to Cake\View\Helper\HtmlHelper::css() must be of the type array, null given, called in /var/www/aslguarico/src/Template/Pages/home.ctp on line 42 and defined in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 407]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 407
+include - APP/Template/Pages/home.ctp, line 42
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-03-24 14:38:05 Error: Fatal Error (1): Unsupported operand types in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 409]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-24 14:38:05 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /aslguarico/
+Stack Trace:
+#0 /var/www/aslguarico/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', '/var/www/aslgua...', 409)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-03-24 14:39:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:39:25 Warning: Warning (4096): Argument 2 passed to Cake\View\Helper\HtmlHelper::css() must be of the type array, null given, called in /var/www/aslguarico/src/Template/Pages/home.ctp on line 41 and defined in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 407]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 407
+include - APP/Template/Pages/home.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-03-24 14:39:25 Error: Fatal Error (1): Unsupported operand types in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 409]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-24 14:39:25 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /aslguarico/
+Stack Trace:
+#0 /var/www/aslguarico/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', '/var/www/aslgua...', 409)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-03-24 14:39:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:39:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:39:52 Warning: Warning (4096): Argument 2 passed to Cake\View\Helper\HtmlHelper::css() must be of the type array, null given, called in /var/www/aslguarico/src/Template/Pages/home.ctp on line 41 and defined in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 407]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 407
+include - APP/Template/Pages/home.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-03-24 14:39:52 Error: Fatal Error (1): Unsupported operand types in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 409]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-24 14:39:52 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /aslguarico/
+Stack Trace:
+#0 /var/www/aslguarico/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', '/var/www/aslgua...', 409)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-03-24 14:40:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:40:39 Warning: Warning (4096): Argument 2 passed to Cake\View\Helper\HtmlHelper::css() must be of the type array, null given, called in /var/www/aslguarico/src/Template/Pages/home.ctp on line 41 and defined in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 407]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\HtmlHelper::css() - CORE/src/View/Helper/HtmlHelper.php, line 407
+include - APP/Template/Pages/home.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-03-24 14:40:39 Error: Fatal Error (1): Unsupported operand types in [/var/www/aslguarico/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php, line 409]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-24 14:40:39 Error: [Cake\Error\FatalErrorException] Unsupported operand types
+Request URL: /aslguarico/
+Stack Trace:
+#0 /var/www/aslguarico/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Unsupported ope...', '/var/www/aslgua...', 409)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-03-24 14:45:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:45:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:47:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:47:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:47:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css.html could not be found.
+Exception Attributes: array (
+  'class' => 'Css.html',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aslguarico/css.html
+Stack Trace:
+#0 /var/www/aslguarico/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-03-24 14:47:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:47:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index.html could not be found.
+Exception Attributes: array (
+  'class' => 'Index.html',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aslguarico/index.html
+Stack Trace:
+#0 /var/www/aslguarico/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-03-24 14:47:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-03-24 14:47:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Portfolio.html could not be found.
+Exception Attributes: array (
+  'class' => 'Portfolio.html',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aslguarico/portfolio.html
+Stack Trace:
+#0 /var/www/aslguarico/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

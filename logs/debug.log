@@ -1,0 +1,69 @@
+2015-03-24 14:00:25 Notice: Notice (1024): Please change the value of 'Security.salt' in ROOT/config/app.php to a salt value specific to your application. in [/var/www/aslguarico/vendor/cakephp/cakephp/src/Error/Debugger.php, line 759]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Error\Debugger::checkSecurityKeys() - CORE/src/Error/Debugger.php, line 759
+include - APP/Template/Pages/home.ctp, line 51
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-03-24 14:23:30 Notice: Notice (1024): Please change the value of 'Security.salt' in ROOT/config/app.php to a salt value specific to your application. in [/var/www/aslguarico/vendor/cakephp/cakephp/src/Error/Debugger.php, line 759]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Error\Debugger::checkSecurityKeys() - CORE/src/Error/Debugger.php, line 759
+include - APP/Template/Pages/home.ctp, line 51
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-03-24 14:23:30 Notice: Notice (1024): Please change the value of 'Security.salt' in ROOT/config/app.php to a salt value specific to your application. in [/var/www/aslguarico/vendor/cakephp/cakephp/src/Error/Debugger.php, line 759]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Error\Debugger::checkSecurityKeys() - CORE/src/Error/Debugger.php, line 759
+include - APP/Template/Pages/home.ctp, line 51
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-03-24 14:28:37 Notice: Notice (1024): Please change the value of 'Security.salt' in ROOT/config/app.php to a salt value specific to your application. in [/var/www/aslguarico/vendor/cakephp/cakephp/src/Error/Debugger.php, line 759]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Error\Debugger::checkSecurityKeys() - CORE/src/Error/Debugger.php, line 759
+include - APP/Template/Pages/home.ctp, line 51
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 576
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
